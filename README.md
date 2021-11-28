@@ -7,6 +7,7 @@ Please make sure you have the latest LTS version of node installed prior to inst
 You can check by running these commands 
 
 node -v
+
 npm -v
 
 and visiting https://nodejs.org/en/
