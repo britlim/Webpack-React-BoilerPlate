@@ -4,9 +4,13 @@ created by: https://github.com/britlim
 
 A simple webpack boilerplate that is React capable and runs on start using concurrently.
 Please make sure you have the latest LTS version of node installed prior to installing webpack.
-You can check by running these commands and visiting https://nodejs.org/en/
+You can check by running these commands 
+
 node -v
 npm -v
+
+and visiting https://nodejs.org/en/
+
 
 To begin, you will need to either run npm install or install the dependencies that you require for your project.
 In this boilerplate, we include the packages below...
