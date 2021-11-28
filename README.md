@@ -1,5 +1,7 @@
 # Webpack-React-BoilerPlate
 
+created by: https://github.com/britlim
+
 A simple webpack boilerplate that is react capable and runs on start using concurrently.
 
 To begin, you will need to either run npm install or install the dependencies that you require for your project.
