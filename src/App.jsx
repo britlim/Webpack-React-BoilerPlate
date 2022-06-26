@@ -3,32 +3,30 @@
 //React Routers are not included in this boilerplate so if you plan on using React Routers, you would need to install react-router-dom
 //Otherwise this file would act as your initial component.  Happy coding!
 
-import React  from 'react';
+// import React  from 'react';
 
 
-export default function App() {
-  return (
-    <div>
-      <h1>Welcome to your project.</h1>
-    </div>
-  )
-}
+// export default function App() {
+//   return (
+//     <div>
+//       <h1>Welcome to your project.</h1>
+//     </div>
+//   )
+// }
 
 //If you plan on using React Routers, this is where you would start that process.  
 //Here is some boilerplate for Routes which you would set up based on your components.
 
-// import React from 'react';
-// import Signup from './components/Signup';
-// import Login from './components/Login';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Homepage from './components/Homepage.jsx';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Homepage from './components/Homepage.jsx'
 
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route exact path="/" element={<Homepage />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
